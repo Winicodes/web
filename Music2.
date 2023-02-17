@@ -1,0 +1,27 @@
+            </div>
+            </fieldset>
+<br><br><br>
+            <fieldset>
+        <p><h3>NOTE: You will need to come around for an oral interview to complete your admission process.
+                In view of this information, please choose a preferred time for your appointment.</h3>
+            </p>
+            <label for="meeting time">Choose a time for your appointment:</label>
+            <input type="datetime-local" id="meeting-time" name="meeting-time" value="2023-03-01T11:30"
+            min="2023-10-02T00:00" max="2023-07-31T00:00">
+            <br><br>
+            <label for="week">Choose a week in March or April:</label>
+            <input type="week" name="week" id="app-week" min="2023-W11" max="2023-W15" required>
+           
+            <br><br>
+            <label for="appt">Choose a time for your meeting:</label>
+            <input type="time"  id="appt" name="appt" min="09:00" max = "17:00" required>
+            <small>Office hours are 9am to 5pm</small></fieldset>
+            <br><br>Choose your preferred form color printout below:
+         <div>
+         <input type="color" id="black" name="black" value="">
+         <label for = "black"> Black</label>
+         </div>
+         <div>
+        <input type="color" id= "red" name="red" value="#f6b73c">
+        <label for = "red"> Colored</label>
+        </div>
